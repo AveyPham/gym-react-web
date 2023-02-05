@@ -1,0 +1,26 @@
+import React from 'react'
+import '../../styles/start.css'
+import trainerImg from '../../assets/img/trainer.png'
+
+const Start = () => {
+  return (
+    <section id='classes'>
+        <div className='container'>
+            <div className='start__wrapper'>
+                <div className='start__img'>
+                    <img src={trainerImg}/>
+                </div>
+                <div className='start__content'>
+                    <h2 className='section__title'>
+                        Ready to make a <span className='highlights'>change?</span>
+                    </h2>
+                    <p>Working with a personal trainer will give you the nudge you need to get your workout in — whether in person or virtually — not only during your appointments but also hopefully several other times during the week.</p>
+                    <button className='register__btn'>Get Started</button>
+                </div>
+            </div>
+        </div>
+    </section>
+  )
+}
+
+export default Start
